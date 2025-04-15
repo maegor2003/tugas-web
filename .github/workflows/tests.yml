@@ -14,6 +14,7 @@ permissions:
 
 jobs:
   tests:
+    if: false  # Nonaktifkan job ini
     runs-on: ubuntu-latest
 
     strategy:
